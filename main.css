@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap");
+
+* {
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #000000;
+  font-family: "Poppins", sans-serif;
+ 
+}
+.header,h1{
+  color:#fff;
+  font-size: 2rem;
+  font-weight: 500;
+  text-align:center;
+  margin:2rem 0rem 0rem 0rem;
+}
+.body{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+.quiz-box {
+  background-color: #fff;
+  border-radius: 10px;
+  width: 650px;
+  overflow: hidden;
+}
+.quiz-heading {
+  padding: 2rem;
+}
+h2 {
+  padding: 0.8rem;
+  text-align: center;
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+ul li {
+  font-weight: 500;
+  font-size: 1rem;
+  margin: 2rem 1.4rem;
+}
+ul li label {
+  cursor: pointer;
+}
+button {
+  background-color: #ff8080 ;
+  color: #fff;
+  border: none;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  font-size: 1.1rem;
+  font-family: inherit;
+  padding: 1.3rem;
+}
+button:hover {
+  background-color:  #ff9999;
+}
+button:focus {
+  outline: none;
+  background-color:  #33ffad;
+}
+@media screen and (min-width:400px) and (max-width:650px){
+  .quiz-box {
+    background-color: #fff;
+    border-radius: 10px;
+    width: 400px;
+    overflow: hidden;
+  } 
+  h2{
+    font-size:0.8rem;
+  }
+  ul li {
+    font-weight: 500;
+    font-size: 0.8rem;
+}
+.body {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+  margin: -8rem 0rem 0rem 0rem;
+}
+}
+@media screen and (max-width:399px){
+  .quiz-box {
+    background-color: #fff;
+    border-radius: 10px;
+    width: 300px;
+    overflow: hidden;
+  } 
+  h2{
+    font-size:0.6rem;
+    padding: 0.4rem;
+    text-align: center;
+    margin: 0;
+  }
+  ul li {
+    font-weight: 500;
+    font-size: 0.8rem;
+}
+h1{
+  font-size:1rem;
+}
+.body {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+  margin: -6rem 0rem 0rem 0rem;
+}
+}
